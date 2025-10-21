@@ -1,4 +1,5 @@
-def greeting(name, age):
+def greeting(name, age=28):
     print(f"Hello, {name}, you are {age}!")
 
-greeting('Sjaak', 40)
+input_name = input("Enter your name: ")
+greeting(input_name, 32)
