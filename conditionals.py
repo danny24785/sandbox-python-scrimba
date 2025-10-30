@@ -9,3 +9,10 @@ elif not(is_raining) and is_cold:
     print("Bring a jacket")
 else:
     print("shirt is fine")
+
+
+amount = 50
+if amount <= 50:
+    print("Purchase approved")
+else:
+    print("Pin required")
